@@ -26,8 +26,8 @@ $(call inherit-product, device/meizu/m1971/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # PixelExperience props
-TARGET_GAPPS_ARCH := arm64 
-CUSTOM_BUILD_TYPE :=Boos
+TARGET_GAPPS_ARCH := arm64
+CUSTOM_BUILD_TYPE := Boos
 TARGET_BOOT_ANIMATION_RES := 1080 
 PRODUCT_NAME := aosp_m1971 
 PRODUCT_BRAND := meizu 
